@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.color-js {
+    width: 20%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+}
+
+.text-inner {
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 80px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    /* margin-left: 5; */
+}
+
+.btn {
+    position: absolute;
+    cursor: pointer;
+}
+
+.pink {
+    text-decoration: solid;
+}
+
+.btn-bom {
+    left: 100px;
+}
+
+.color-js {
+    text-align: center;
+}
+
+.onlock {
+    background-image: url('img/free-icon-padlock-unlock-25215.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.lock button {
+    background-image: url('img/free-icon-padlock-25239.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.onlock:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
