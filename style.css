@@ -88,3 +88,20 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
+
+.btn-js {
+    background-image: url('img/free-icon-refresh-2546743.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-js:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
